@@ -50,7 +50,7 @@ def predictor():
         user_handle = request.form.get('user_handle','test')
         print(user_handle)
         output = predict(user_handle)
-        return output
+        return f"Try this problem: {output}"
     return render_template("form.html")
   
 if __name__=='__main__':

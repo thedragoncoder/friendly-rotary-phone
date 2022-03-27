@@ -4,9 +4,6 @@ import pickle
 import codeforces_api
 import random
 
-from matplotlib.pyplot import pie
-
-arser = codeforces_api.CodeforcesParser()
 cf_api = codeforces_api.CodeforcesApi()
 # Flask constructor
 app = Flask(__name__)   

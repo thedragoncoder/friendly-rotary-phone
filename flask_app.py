@@ -3,6 +3,7 @@ from flask import Flask, request, render_template
 import pickle
 import codeforces_api
 import random
+import os
 
 cf_api = codeforces_api.CodeforcesApi()
 # Flask constructor
